@@ -90,7 +90,9 @@ $(document).on('tap', '#js_prev', function() {
 /* Selected */
 $(document).on('tap', '.js_cell', function() {
 	if(!$(this).hasClass('active')){
-		$(this).addClass('active');
+		if($(this).html() != '&nbsp;'){
+			$(this).addClass('active');		
+		}
 	}else{
 		$(this).removeClass('active');		
 	}
@@ -99,5 +101,6 @@ $(document).on('tap', '.js_cell', function() {
 /* Camera */
 $(document).on('tap', '#js_camera_button', function() {
 	$('#js_prev, #js_next').toggleClass('hidden');
-	
+    window.location = 'scheme://saveFunc?camera=on';
+    console.log('camera=on');
 });
