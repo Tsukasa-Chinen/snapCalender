@@ -53,9 +53,17 @@ a {
 	text-align: center;
 	line-height: 4.4rem;
 	transform: translate(0, -.05rem);
+	transition: all 1s;
 }
-.hidden {
+.header__prev.active,
+.header__next.active {
 	opacity: 0;
+}
+.header__prev.active {
+	transform: translate(-10rem, -.05rem);
+}
+.header__next.active {
+	transform: translate(10rem, -.05rem);
 }
 .header__prev {
 	color: #e53e3e;
@@ -114,9 +122,19 @@ a {
 	line-height: 3.4rem;
 	border-radius: 100%;
 }
+@keyframes moving {
+	50%{
+		transform: translate(0, .5rem);
+	}
+	100% {
+		transform: translate(0, 0);		
+	}
+}
+
 .calender__td_text.active {
 	background: #fc9538;
 	color: #fff;
+	animation: moving .4s ease-in;
 }
 .camera {
 	padding: 0 5%;
@@ -177,4 +195,89 @@ a {
 	padding: 1rem 0;
 	text-align: center;
 	color: #ccc;
+}
+
+/* Large Mobile
+---------------------------------------------*/
+@media screen and (min-width:414px) { 
+	.header {
+		padding: 2rem 5%;
+	}
+	.calender {
+		padding-top: 84%;
+		margin-bottom: 18%;
+	}
+	.calender__table th {
+		height: 4rem;
+	}	
+	.calender__table td {
+		min-height: 5.4rem;
+		line-height: 5.4rem;
+	}
+	.calender__td_text {
+		width: 4rem;
+		height: 4rem;
+		line-height: 4rem;
+	}
+	.camera__contents {
+		padding: 2%;
+	}
+	.camera__icon {
+		width: 22%;
+	}
+	.camera__text_ja {
+		font-size: 1.6rem;
+	}
+	.camera__text_en {
+		font-size: 1.2rem;
+	}
+
+}
+
+/* Tablet
+---------------------------------------------*/
+@media screen and (min-width:768px) { 
+		.header {
+			padding: 2.6rem 8.8% 4rem 6.8%;
+		}
+		.header__title {
+			font-size: 4rem;
+		}
+		.header__prev,
+		.header__next {
+			font-size: 1.6rem;
+		}
+		.calender {
+			padding-top: 60%;
+			margin-bottom: 4%;
+		}
+		.calender__table {
+			font-size: 2.4vw;
+		}
+		.calender__table td {
+			min-height: 6.4rem;
+			line-height: 6.4rem;
+		}
+		.camera {
+			padding: 0 16%;
+		}
+		.camera__inner {
+			padding: 1.4%;
+		}
+		.camera__contents {
+			padding: 1.4%;
+		}
+		.camera__icon {
+			width: 18%;
+		}
+		.camera__text_ja {
+			font-size: 2.4rem;
+		}
+		.camera__text_en {
+			font-size: 1.8rem;
+			transform: translate(0, -.4rem);
+		}
+		.copyright {
+			font-size: 1.4rem;
+		}
 }

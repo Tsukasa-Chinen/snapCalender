@@ -10,8 +10,15 @@ var	currentYear  = today.getFullYear(),
 var $displayYear  = currentYear,
 	$displayMonth = currentMonth;
 	
+var $status;
+
+
 /* Default */
-$(document).on('ready',function() {
+$(document).on('ready', function() {
+	if($status == 'saved'){
+		$('#js_prev, #js_next').removeClass('active');
+	}
+	
 	calendarHeading($displayYear, $displayMonth);
 	calendarBody($displayYear, $displayMonth);	
 });
@@ -73,6 +80,7 @@ $(document).on('tap', '#js_next', function() {
 	}
 	calendarHeading($displayYear, $displayMonth);
 	calendarBody($displayYear, $displayMonth);
+    return false;
 });
 
 /* Prev */
@@ -84,6 +92,7 @@ $(document).on('tap', '#js_prev', function() {
 	}
 	calendarHeading($displayYear, $displayMonth);
 	calendarBody($displayYear, $displayMonth);
+    return false;
 });
 
 
@@ -96,11 +105,15 @@ $(document).on('tap', '.js_cell', function() {
 	}else{
 		$(this).removeClass('active');		
 	}
+    return false;
 });
 
 /* Camera */
 $(document).on('tap', '#js_camera_button', function() {
-	$('#js_prev, #js_next').toggleClass('hidden');
-    window.location = 'scheme://saveFunc?camera=on';
+	$('#js_prev, #js_next').toggleClass('active');
     console.log('camera=on');
+	setTimeout(function(){
+	    window.location = 'scheme://saveFunc?camera=on';
+	}, 500);
+    return false;
 });
