@@ -39,9 +39,11 @@ a {
 .header {
 	display: flex;
 	width: 100%;
+	max-width: 32rem;
+	margin: 0 auto;
 	justify-content: space-between;
 	align-items: center;
-	padding: 2rem 4%;
+	padding: 2rem 6%;
 	letter-spacing: .15rem;
 }
 .header__prev,
@@ -82,9 +84,10 @@ a {
 	margin-right: .5rem;
 }
 .calender {
+	max-width: 30rem;
+	margin: 0 auto 14%;
 	position: relative;
 	padding-top: 82.5%;
-	margin-bottom: 14%;
 }
 .calender__inner {
 	position: absolute;
@@ -97,7 +100,7 @@ a {
 }
 .calender__table {
 	width: 100%;
-	font-size: 3.4vw;
+	font-size: 1.2rem;
 	text-align: center;
 }
 .calender__table th {
@@ -137,6 +140,8 @@ a {
 	animation: moving .4s ease-in;
 }
 .camera {
+	width: 32rem;
+	margin: 0 auto;
 	padding: 0 5%;
 }
 .camera__inner {
@@ -198,7 +203,7 @@ a {
 }
 
 /* Large Mobile
----------------------------------------------*/
+---------------------------------------------
 @media screen and (min-width:414px) { 
 	.header {
 		padding: 2rem 5%;
@@ -233,11 +238,12 @@ a {
 	}
 
 }
-
+*/
 /* Tablet
 ---------------------------------------------*/
 @media screen and (min-width:768px) { 
 		.header {
+			max-width: 100%;
 			padding: 2.6rem 8.8% 4rem 6.8%;
 		}
 		.header__title {
@@ -248,6 +254,7 @@ a {
 			font-size: 1.6rem;
 		}
 		.calender {
+			max-width: 100%;
 			padding-top: 60%;
 			margin-bottom: 4%;
 		}
@@ -259,6 +266,8 @@ a {
 			line-height: 6.4rem;
 		}
 		.camera {
+			width: 100%;
+			max-width: 100%;
 			padding: 0 16%;
 		}
 		.camera__inner {
