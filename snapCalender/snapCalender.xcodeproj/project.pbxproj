@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6491F161FEC1F5000347942 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6491F151FEC1F5000347942 /* AppDelegate.swift */; };
+		C6491F181FEC1F5000347942 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6491F171FEC1F5000347942 /* ViewController.swift */; };
+		C6491F1B1FEC1F5000347942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6491F191FEC1F5000347942 /* Main.storyboard */; };
+		C6491F1D1FEC1F5000347942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6491F1C1FEC1F5000347942 /* Assets.xcassets */; };
+		C6491F201FEC1F5000347942 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6491F1E1FEC1F5000347942 /* LaunchScreen.storyboard */; };
+		C6491F2B1FEC1F5000347942 /* snapCalenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6491F2A1FEC1F5000347942 /* snapCalenderTests.swift */; };
+		C6491F361FEC1F5000347942 /* snapCalenderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6491F351FEC1F5000347942 /* snapCalenderUITests.swift */; };
+		C6491F4E1FEC21EB00347942 /* calender.js in Resources */ = {isa = PBXBuildFile; fileRef = C6491F471FEC21EB00347942 /* calender.js */; };
+		C6491F4F1FEC21EB00347942 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = C6491F481FEC21EB00347942 /* index.html */; };
+		C6491F501FEC21EB00347942 /* jquery-2.1.4.min.js in Resources */ = {isa = PBXBuildFile; fileRef = C6491F491FEC21EB00347942 /* jquery-2.1.4.min.js */; };
+		C6491F511FEC21EB00347942 /* jquery.mobile.custom.min.js in Resources */ = {isa = PBXBuildFile; fileRef = C6491F4A1FEC21EB00347942 /* jquery.mobile.custom.min.js */; };
+		C6491F521FEC21EB00347942 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = C6491F4B1FEC21EB00347942 /* style.css */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6491F271FEC1F5000347942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6491F0A1FEC1F5000347942 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6491F111FEC1F5000347942;
+			remoteInfo = snapCalender;
+		};
+		C6491F321FEC1F5000347942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6491F0A1FEC1F5000347942 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6491F111FEC1F5000347942;
+			remoteInfo = snapCalender;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6491F121FEC1F5000347942 /* snapCalender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snapCalender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6491F151FEC1F5000347942 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6491F171FEC1F5000347942 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6491F1A1FEC1F5000347942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6491F1C1FEC1F5000347942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6491F1F1FEC1F5000347942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6491F211FEC1F5000347942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6491F261FEC1F5000347942 /* snapCalenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snapCalenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6491F2A1FEC1F5000347942 /* snapCalenderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snapCalenderTests.swift; sourceTree = "<group>"; };
+		C6491F2C1FEC1F5000347942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6491F311FEC1F5000347942 /* snapCalenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snapCalenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6491F351FEC1F5000347942 /* snapCalenderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snapCalenderUITests.swift; sourceTree = "<group>"; };
+		C6491F371FEC1F5000347942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6491F471FEC21EB00347942 /* calender.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = calender.js; sourceTree = "<group>"; };
+		C6491F481FEC21EB00347942 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		C6491F491FEC21EB00347942 /* jquery-2.1.4.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-2.1.4.min.js"; sourceTree = "<group>"; };
+		C6491F4A1FEC21EB00347942 /* jquery.mobile.custom.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.mobile.custom.min.js; sourceTree = "<group>"; };
+		C6491F4B1FEC21EB00347942 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6491F0F1FEC1F5000347942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6491F231FEC1F5000347942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6491F2E1FEC1F5000347942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6491F091FEC1F5000347942 = {
+			isa = PBXGroup;
+			children = (
+				C6491F141FEC1F5000347942 /* snapCalender */,
+				C6491F291FEC1F5000347942 /* snapCalenderTests */,
+				C6491F341FEC1F5000347942 /* snapCalenderUITests */,
+				C6491F131FEC1F5000347942 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6491F131FEC1F5000347942 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6491F121FEC1F5000347942 /* snapCalender.app */,
+				C6491F261FEC1F5000347942 /* snapCalenderTests.xctest */,
+				C6491F311FEC1F5000347942 /* snapCalenderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6491F141FEC1F5000347942 /* snapCalender */ = {
+			isa = PBXGroup;
+			children = (
+				C6491F151FEC1F5000347942 /* AppDelegate.swift */,
+				C6491F171FEC1F5000347942 /* ViewController.swift */,
+				C6491F191FEC1F5000347942 /* Main.storyboard */,
+				C6491F1C1FEC1F5000347942 /* Assets.xcassets */,
+				C6491F1E1FEC1F5000347942 /* LaunchScreen.storyboard */,
+				C6491F211FEC1F5000347942 /* Info.plist */,
+				C6491F431FEC21EB00347942 /* html */,
+			);
+			path = snapCalender;
+			sourceTree = "<group>";
+		};
+		C6491F291FEC1F5000347942 /* snapCalenderTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6491F2A1FEC1F5000347942 /* snapCalenderTests.swift */,
+				C6491F2C1FEC1F5000347942 /* Info.plist */,
+			);
+			path = snapCalenderTests;
+			sourceTree = "<group>";
+		};
+		C6491F341FEC1F5000347942 /* snapCalenderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6491F351FEC1F5000347942 /* snapCalenderUITests.swift */,
+				C6491F371FEC1F5000347942 /* Info.plist */,
+			);
+			path = snapCalenderUITests;
+			sourceTree = "<group>";
+		};
+		C6491F431FEC21EB00347942 /* html */ = {
+			isa = PBXGroup;
+			children = (
+				C6491F441FEC21EB00347942 /* src */,
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
+		C6491F441FEC21EB00347942 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C6491F471FEC21EB00347942 /* calender.js */,
+				C6491F481FEC21EB00347942 /* index.html */,
+				C6491F491FEC21EB00347942 /* jquery-2.1.4.min.js */,
+				C6491F4A1FEC21EB00347942 /* jquery.mobile.custom.min.js */,
+				C6491F4B1FEC21EB00347942 /* style.css */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6491F111FEC1F5000347942 /* snapCalender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6491F3A1FEC1F5000347942 /* Build configuration list for PBXNativeTarget "snapCalender" */;
+			buildPhases = (
+				C6491F0E1FEC1F5000347942 /* Sources */,
+				C6491F0F1FEC1F5000347942 /* Frameworks */,
+				C6491F101FEC1F5000347942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = snapCalender;
+			productName = snapCalender;
+			productReference = C6491F121FEC1F5000347942 /* snapCalender.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6491F251FEC1F5000347942 /* snapCalenderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6491F3D1FEC1F5000347942 /* Build configuration list for PBXNativeTarget "snapCalenderTests" */;
+			buildPhases = (
+				C6491F221FEC1F5000347942 /* Sources */,
+				C6491F231FEC1F5000347942 /* Frameworks */,
+				C6491F241FEC1F5000347942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6491F281FEC1F5000347942 /* PBXTargetDependency */,
+			);
+			name = snapCalenderTests;
+			productName = snapCalenderTests;
+			productReference = C6491F261FEC1F5000347942 /* snapCalenderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6491F301FEC1F5000347942 /* snapCalenderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6491F401FEC1F5000347942 /* Build configuration list for PBXNativeTarget "snapCalenderUITests" */;
+			buildPhases = (
+				C6491F2D1FEC1F5000347942 /* Sources */,
+				C6491F2E1FEC1F5000347942 /* Frameworks */,
+				C6491F2F1FEC1F5000347942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6491F331FEC1F5000347942 /* PBXTargetDependency */,
+			);
+			name = snapCalenderUITests;
+			productName = snapCalenderUITests;
+			productReference = C6491F311FEC1F5000347942 /* snapCalenderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6491F0A1FEC1F5000347942 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Tsukasa Chinen";
+				TargetAttributes = {
+					C6491F111FEC1F5000347942 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					C6491F251FEC1F5000347942 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C6491F111FEC1F5000347942;
+					};
+					C6491F301FEC1F5000347942 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C6491F111FEC1F5000347942;
+					};
+				};
+			};
+			buildConfigurationList = C6491F0D1FEC1F5000347942 /* Build configuration list for PBXProject "snapCalender" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6491F091FEC1F5000347942;
+			productRefGroup = C6491F131FEC1F5000347942 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6491F111FEC1F5000347942 /* snapCalender */,
+				C6491F251FEC1F5000347942 /* snapCalenderTests */,
+				C6491F301FEC1F5000347942 /* snapCalenderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6491F101FEC1F5000347942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6491F501FEC21EB00347942 /* jquery-2.1.4.min.js in Resources */,
+				C6491F4F1FEC21EB00347942 /* index.html in Resources */,
+				C6491F511FEC21EB00347942 /* jquery.mobile.custom.min.js in Resources */,
+				C6491F201FEC1F5000347942 /* LaunchScreen.storyboard in Resources */,
+				C6491F1D1FEC1F5000347942 /* Assets.xcassets in Resources */,
+				C6491F521FEC21EB00347942 /* style.css in Resources */,
+				C6491F4E1FEC21EB00347942 /* calender.js in Resources */,
+				C6491F1B1FEC1F5000347942 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6491F241FEC1F5000347942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6491F2F1FEC1F5000347942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6491F0E1FEC1F5000347942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6491F181FEC1F5000347942 /* ViewController.swift in Sources */,
+				C6491F161FEC1F5000347942 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6491F221FEC1F5000347942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6491F2B1FEC1F5000347942 /* snapCalenderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6491F2D1FEC1F5000347942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6491F361FEC1F5000347942 /* snapCalenderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6491F281FEC1F5000347942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6491F111FEC1F5000347942 /* snapCalender */;
+			targetProxy = C6491F271FEC1F5000347942 /* PBXContainerItemProxy */;
+		};
+		C6491F331FEC1F5000347942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6491F111FEC1F5000347942 /* snapCalender */;
+			targetProxy = C6491F321FEC1F5000347942 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6491F191FEC1F5000347942 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6491F1A1FEC1F5000347942 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6491F1E1FEC1F5000347942 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6491F1F1FEC1F5000347942 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6491F381FEC1F5000347942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6491F391FEC1F5000347942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6491F3B1FEC1F5000347942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98EKE6YK73;
+				INFOPLIST_FILE = snapCalender/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocomina.snapCalender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6491F3C1FEC1F5000347942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98EKE6YK73;
+				INFOPLIST_FILE = snapCalender/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocomina.snapCalender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C6491F3E1FEC1F5000347942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = snapCalenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsukasachinen.snapCalenderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snapCalender.app/snapCalender";
+			};
+			name = Debug;
+		};
+		C6491F3F1FEC1F5000347942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = snapCalenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsukasachinen.snapCalenderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snapCalender.app/snapCalender";
+			};
+			name = Release;
+		};
+		C6491F411FEC1F5000347942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = snapCalenderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsukasachinen.snapCalenderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = snapCalender;
+			};
+			name = Debug;
+		};
+		C6491F421FEC1F5000347942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = snapCalenderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsukasachinen.snapCalenderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = snapCalender;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6491F0D1FEC1F5000347942 /* Build configuration list for PBXProject "snapCalender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6491F381FEC1F5000347942 /* Debug */,
+				C6491F391FEC1F5000347942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6491F3A1FEC1F5000347942 /* Build configuration list for PBXNativeTarget "snapCalender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6491F3B1FEC1F5000347942 /* Debug */,
+				C6491F3C1FEC1F5000347942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6491F3D1FEC1F5000347942 /* Build configuration list for PBXNativeTarget "snapCalenderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6491F3E1FEC1F5000347942 /* Debug */,
+				C6491F3F1FEC1F5000347942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6491F401FEC1F5000347942 /* Build configuration list for PBXNativeTarget "snapCalenderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6491F411FEC1F5000347942 /* Debug */,
+				C6491F421FEC1F5000347942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6491F0A1FEC1F5000347942 /* Project object */;
+}
