@@ -10,15 +10,10 @@ var	currentYear  = today.getFullYear(),
 var $displayYear  = currentYear,
 	$displayMonth = currentMonth;
 	
-var $status;
 
 
 /* Default */
 $(document).on('ready', function() {
-	if($status == 'saved'){
-		$('#js_prev, #js_next').removeClass('active');
-	}
-	
 	calendarHeading($displayYear, $displayMonth);
 	calendarBody($displayYear, $displayMonth);	
 });

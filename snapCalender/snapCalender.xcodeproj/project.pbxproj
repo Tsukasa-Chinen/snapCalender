@@ -19,6 +19,10 @@
 		C6491F501FEC21EB00347942 /* jquery-2.1.4.min.js in Resources */ = {isa = PBXBuildFile; fileRef = C6491F491FEC21EB00347942 /* jquery-2.1.4.min.js */; };
 		C6491F511FEC21EB00347942 /* jquery.mobile.custom.min.js in Resources */ = {isa = PBXBuildFile; fileRef = C6491F4A1FEC21EB00347942 /* jquery.mobile.custom.min.js */; };
 		C6491F521FEC21EB00347942 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = C6491F4B1FEC21EB00347942 /* style.css */; };
+		C658A7461FECA98B00F8E076 /* icomoon.eot in Resources */ = {isa = PBXBuildFile; fileRef = C658A7421FECA98A00F8E076 /* icomoon.eot */; };
+		C658A7471FECA98B00F8E076 /* icomoon.svg in Resources */ = {isa = PBXBuildFile; fileRef = C658A7431FECA98A00F8E076 /* icomoon.svg */; };
+		C658A7481FECA98B00F8E076 /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C658A7441FECA98A00F8E076 /* icomoon.ttf */; };
+		C658A7491FECA98B00F8E076 /* icomoon.woff in Resources */ = {isa = PBXBuildFile; fileRef = C658A7451FECA98A00F8E076 /* icomoon.woff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,10 @@
 		C6491F491FEC21EB00347942 /* jquery-2.1.4.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-2.1.4.min.js"; sourceTree = "<group>"; };
 		C6491F4A1FEC21EB00347942 /* jquery.mobile.custom.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.mobile.custom.min.js; sourceTree = "<group>"; };
 		C6491F4B1FEC21EB00347942 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		C658A7421FECA98A00F8E076 /* icomoon.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = icomoon.eot; sourceTree = "<group>"; };
+		C658A7431FECA98A00F8E076 /* icomoon.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icomoon.svg; sourceTree = "<group>"; };
+		C658A7441FECA98A00F8E076 /* icomoon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = icomoon.ttf; sourceTree = "<group>"; };
+		C658A7451FECA98A00F8E076 /* icomoon.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = icomoon.woff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +155,10 @@
 		C6491F441FEC21EB00347942 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				C658A7421FECA98A00F8E076 /* icomoon.eot */,
+				C658A7431FECA98A00F8E076 /* icomoon.svg */,
+				C658A7441FECA98A00F8E076 /* icomoon.ttf */,
+				C658A7451FECA98A00F8E076 /* icomoon.woff */,
 				C6491F471FEC21EB00347942 /* calender.js */,
 				C6491F481FEC21EB00347942 /* index.html */,
 				C6491F491FEC21EB00347942 /* jquery-2.1.4.min.js */,
@@ -263,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C658A7461FECA98B00F8E076 /* icomoon.eot in Resources */,
 				C6491F501FEC21EB00347942 /* jquery-2.1.4.min.js in Resources */,
 				C6491F4F1FEC21EB00347942 /* index.html in Resources */,
 				C6491F511FEC21EB00347942 /* jquery.mobile.custom.min.js in Resources */,
@@ -270,7 +283,10 @@
 				C6491F1D1FEC1F5000347942 /* Assets.xcassets in Resources */,
 				C6491F521FEC21EB00347942 /* style.css in Resources */,
 				C6491F4E1FEC21EB00347942 /* calender.js in Resources */,
+				C658A7491FECA98B00F8E076 /* icomoon.woff in Resources */,
 				C6491F1B1FEC1F5000347942 /* Main.storyboard in Resources */,
+				C658A7471FECA98B00F8E076 /* icomoon.svg in Resources */,
+				C658A7481FECA98B00F8E076 /* icomoon.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -4,6 +4,36 @@
 	box-sizing: border-box;
 }
 
+@font-face {
+	font-family: 'icomoon';
+	src:url('./fonts/icomoon.eot?40hubb');
+	src:url('./fonts/icomoon.eot?40hubb#iefix') format('embedded-opentype'),
+		url('./fonts/icomoon.ttf?40hubb') format('truetype'),
+		url('./fonts/icomoon.woff?40hubb') format('woff'),
+		url('./fonts/icomoon.svg?40hubb#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chevron-left:before {
+	content: "\e900";
+}
+.icon-chevron-right:before {
+	content: "\e901";
+}
+
 /* Basic Style
 -------------------------------------- */
 html {
@@ -53,19 +83,11 @@ a {
 	height: 4.4rem;
 	align-items: center;
 	font-family: '小塚ゴシック Pro L','Kozuka Gothic Pro Light',sans-serif;
-	text-align: center;
-	transform: translate(0, -.05rem);
-	transition: all 1s;
+	transform: translate(0, -.1rem);
 }
 .header__prev.active,
 .header__next.active {
 	opacity: 0;
-}
-.header__prev.active {
-	transform: translate(-10rem, -.05rem);
-}
-.header__next.active {
-	transform: translate(10rem, -.05rem);
 }
 .header__prev {
 	color: #e53e3e;
@@ -73,22 +95,9 @@ a {
 .header__next {
 	color: #03aeea;
 }
-.header__prev_svg,
-.header__prev_text,
-.header__next_svg,
-.header__next_text {
-	display: block;
-}
-.header__prev_svg,
-.header__next_svg {
-	width: 2rem;
-	transform: translate(0, .3rem);
-}
-.header__prev_svg .path {
-	fill: #e53e3e;
-}
-.header__next_svg .path {
-	fill: #03aeea;
+.header__prev_icon,
+.header__next_icon {
+	font-size: 2em;
 }
 .header__title {
 	font-family: Courier New;
@@ -221,43 +230,6 @@ a {
 	background: rgba(255, 255, 255, 1);
 }
 
-/* Large Mobile
----------------------------------------------
-@media screen and (min-width:414px) { 
-	.header {
-		padding: 2rem 5%;
-	}
-	.calender {
-		padding-top: 84%;
-		margin-bottom: 18%;
-	}
-	.calender__table th {
-		height: 4rem;
-	}	
-	.calender__table td {
-		min-height: 5.4rem;
-		line-height: 5.4rem;
-	}
-	.calender__td_text {
-		width: 4rem;
-		height: 4rem;
-		line-height: 4rem;
-	}
-	.camera__contents {
-		padding: 2%;
-	}
-	.camera__icon {
-		width: 22%;
-	}
-	.camera__text_ja {
-		font-size: 1.6rem;
-	}
-	.camera__text_en {
-		font-size: 1.2rem;
-	}
-
-}
-*/
 /* Tablet
 ---------------------------------------------*/
 @media screen and (min-width:768px) { 
@@ -270,7 +242,7 @@ a {
 		}
 		.header__prev,
 		.header__next {
-			font-size: 1.6rem;
+			font-size: 1.4rem;
 		}
 		.calender {
 			max-width: 100%;

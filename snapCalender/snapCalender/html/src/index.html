@@ -6,14 +6,20 @@
 	<link rel="stylesheet" href="./style.css">
 </head>
 <body>
-	<div class="wrapper">
+	<div id="js_wrapper" class="wrapper">
 		<header class="header">
-			<span id="js_prev" class="header__prev">prev</span>
+			<div id="js_prev" class="header__prev">
+				<i class="header__prev_icon icon-chevron-left"></i>
+				<span class="header__prev_text">prev</span>
+			</div>
 			<h1 class="header__title"><span id="js_year"></span><i class="header__slash">/</i><span id="js_month"></span></h1>
-			<span id="js_next" class="header__next">next</span>
+			<div id="js_next" class="header__next">
+				<span class="header__next_text">next</span>
+				<i class="header__next_icon icon-chevron-right"></i>
+			</div>
 		</header>
 		<div class="calender">
-			<div class="calender__inner">				
+			<div class="calender__inner">
 				<table class="calender__table">
 					<thead>
 						<tr>
@@ -28,7 +34,7 @@
 					</thead>
 					<tbody id="js_calendar_body">
 					</tbody>
-				</table>					
+				</table>
 			</div>
 		</div>
 		<div id="js_camera_button" class="camera">
@@ -42,16 +48,15 @@
 								<g>
 									<g>
 										<path class="st2" d="M42,22h-4.7l-0.1-1c-0.3-1.9-1.9-3.3-3.8-3.3h-6.6c-1.9,0-3.6,1.4-3.8,3.3l-0.1,1H18c-1.7,0-3,1.4-3,3v14.2
-											c0,1.7,1.4,3.1,3.1,3.1h23.7c1.7,0,3.1-1.4,3.1-3.1V25C45,23.3,43.6,22,42,22z M17.2,26.9V25c0-0.4,0.4-0.8,0.8-0.8h6.6l0.4-2.9
-											c0.1-0.8,0.8-1.4,1.7-1.4h6.6c0.8,0,1.5,0.6,1.7,1.4l0.4,2.9H42c0.4,0,0.8,0.4,0.8,0.8v1.8l0,0.1l-5.4-0.4
-											c-1.8-2-4.4-3.3-7.3-3.3c-2.9,0-5.5,1.3-7.3,3.3l-5.1,0.3L17.2,26.9z M27.6,26.5c0.7-0.3,1.6-0.4,2.4-0.4c0.8,0,1.7,0.2,2.4,0.4
-											c2.6,1,4.5,3.5,4.5,6.5c0,3.8-3.1,6.9-6.9,6.9s-6.9-3.1-6.9-6.9C23.1,30,25,27.5,27.6,26.5z"/>
+										c0,1.7,1.4,3.1,3.1,3.1h23.7c1.7,0,3.1-1.4,3.1-3.1V25C45,23.3,43.6,22,42,22z M17.2,26.9V25c0-0.4,0.4-0.8,0.8-0.8h6.6l0.4-2.9
+										c0.1-0.8,0.8-1.4,1.7-1.4h6.6c0.8,0,1.5,0.6,1.7,1.4l0.4,2.9H42c0.4,0,0.8,0.4,0.8,0.8v1.8l0,0.1l-5.4-0.4
+										c-1.8-2-4.4-3.3-7.3-3.3c-2.9,0-5.5,1.3-7.3,3.3l-5.1,0.3L17.2,26.9z M27.6,26.5c0.7-0.3,1.6-0.4,2.4-0.4c0.8,0,1.7,0.2,2.4,0.4
+										c2.6,1,4.5,3.5,4.5,6.5c0,3.8-3.1,6.9-6.9,6.9s-6.9-3.1-6.9-6.9C23.1,30,25,27.5,27.6,26.5z"/>
 										<path class="st2" d="M30,37.2c2.3,0,4.2-1.9,4.2-4.2c0-2.3-1.9-4.2-4.2-4.2c-0.3,0-0.7,0-1,0.1c0,0,0,0-0.1,0l0,0c0,0,0,0,0,0
-											l1.2,3.6c0.1,0.4-0.2,0.7-0.6,0.6L26.2,32L26,31.9v0l0,0c-0.1,0.3-0.1,0.7-0.1,1.1C25.8,35.3,27.7,37.2,30,37.2z"/>
+										l1.2,3.6c0.1,0.4-0.2,0.7-0.6,0.6L26.2,32L26,31.9v0l0,0c-0.1,0.3-0.1,0.7-0.1,1.1C25.8,35.3,27.7,37.2,30,37.2z"/>
 									</g>
 								</g>
 							</g>
-							<g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
 						</svg>
 					</div>
 					<!-- /.camera__icon -->
@@ -65,8 +70,9 @@
 		<!-- /.camera -->
 	</div>
 	<!-- /.wrapper -->
-<script src="./jquery-2.1.4.min.js"></script>
-<script src="./jquery.mobile.custom.min.js"></script>
-<script src="./calender.js"></script>
+	<div id="js_modal" class="modal"></div>
+	<script src="./jquery-2.1.4.min.js"></script>
+	<script src="./jquery.mobile.custom.min.js"></script>
+	<script src="./calender.js"></script>
 </body>
 </html>
