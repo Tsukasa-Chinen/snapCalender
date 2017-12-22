@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C63C6DA21FECB08E002D4382 /* icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C63C6DA11FECB08E002D4382 /* icon.jpg */; };
 		C6491F161FEC1F5000347942 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6491F151FEC1F5000347942 /* AppDelegate.swift */; };
 		C6491F181FEC1F5000347942 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6491F171FEC1F5000347942 /* ViewController.swift */; };
 		C6491F1B1FEC1F5000347942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6491F191FEC1F5000347942 /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C63C6DA11FECB08E002D4382 /* icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon.jpg; sourceTree = "<group>"; };
 		C6491F121FEC1F5000347942 /* snapCalender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snapCalender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6491F151FEC1F5000347942 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6491F171FEC1F5000347942 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 		C6491F441FEC21EB00347942 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				C63C6DA11FECB08E002D4382 /* icon.jpg */,
 				C658A7421FECA98A00F8E076 /* icomoon.eot */,
 				C658A7431FECA98A00F8E076 /* icomoon.svg */,
 				C658A7441FECA98A00F8E076 /* icomoon.ttf */,
@@ -286,6 +289,7 @@
 				C658A7491FECA98B00F8E076 /* icomoon.woff in Resources */,
 				C6491F1B1FEC1F5000347942 /* Main.storyboard in Resources */,
 				C658A7471FECA98B00F8E076 /* icomoon.svg in Resources */,
+				C63C6DA21FECB08E002D4382 /* icon.jpg in Resources */,
 				C658A7481FECA98B00F8E076 /* icomoon.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
