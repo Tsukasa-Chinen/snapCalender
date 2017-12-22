@@ -69,6 +69,7 @@ a {
 }
 .header__prev {
 	color: #e53e3e;
+	margin-left: -.8rem;
 }
 .header__next {
 	color: #03aeea;

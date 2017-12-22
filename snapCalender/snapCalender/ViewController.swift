@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  sampleSnapShot
 //
-//  Created by CoComina and yuka on 2017/12/20.
+//  Created by yuka on 2017/12/20.
 //  Copyright © 2017年 yuka. All rights reserved.
 //
 

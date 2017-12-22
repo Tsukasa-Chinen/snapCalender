@@ -48,12 +48,12 @@ a {
 }
 .header__prev,
 .header__next {
-	display: block;
+	display: flex;
 	width: 4.4rem;
 	height: 4.4rem;
+	align-items: center;
 	font-family: '小塚ゴシック Pro L','Kozuka Gothic Pro Light',sans-serif;
 	text-align: center;
-	line-height: 4.4rem;
 	transform: translate(0, -.05rem);
 	transition: all 1s;
 }
@@ -72,6 +72,23 @@ a {
 }
 .header__next {
 	color: #03aeea;
+}
+.header__prev_svg,
+.header__prev_text,
+.header__next_svg,
+.header__next_text {
+	display: block;
+}
+.header__prev_svg,
+.header__next_svg {
+	width: 2rem;
+	transform: translate(0, .3rem);
+}
+.header__prev_svg .path {
+	fill: #e53e3e;
+}
+.header__next_svg .path {
+	fill: #03aeea;
 }
 .header__title {
 	font-family: Courier New;
@@ -107,15 +124,15 @@ a {
 	height: 2.6rem;
 	font-weight: normal;
 }
-.calender__table td {
-	min-height: 4.4rem;
-	line-height: 4rem;
-}
 .calender__table th.sunday {
 	color: #e53e3e;
 }
 .calender__table th.saturday {
 	color: #03aeea;
+}
+.calender__td {
+	min-height: 4.4rem;
+	line-height: 4rem;
 }
 .calender__td_text {
 	display: inline-block;
@@ -125,6 +142,7 @@ a {
 	line-height: 3.4rem;
 	border-radius: 100%;
 }
+
 @keyframes moving {
 	50%{
 		transform: translate(0, .5rem);
@@ -143,6 +161,7 @@ a {
 	width: 32rem;
 	margin: 0 auto;
 	padding: 0 5%;
+	transition: all .4s;
 }
 .camera__inner {
 	background: #ffe600;
@@ -191,15 +210,15 @@ a {
 .camera .st2 {
 	fill: #fff;
 }
-.copyright {
-	display: block;
-	position: absolute;
-	bottom: 5%;
+.modal {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 3;
 	width: 100%;
-	font-family: Courier New;
-	padding: 1rem 0;
-	text-align: center;
-	color: #ccc;
+	height: 100%;
+	background: rgba(255, 255, 255, 1);
 }
 
 /* Large Mobile

@@ -1,16 +1,22 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" href="./style.css">
 </head>
 <body>
-	<div class="wrapper">
+	<div id="js_wrapper" class="wrapper">
 		<header class="header">
-			<span id="js_prev" class="header__prev">&#x25C0;prev</span>
+			<div id="js_prev" class="header__prev">
+				<span class="header__prev_svg"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve"><path class="path" d="M14.4,5.6c-0.8-0.8-2-0.8-2.8,0L5.2,12l6.4,6.4C12,18.8,12.5,19,13,19s1-0.2,1.4-0.6c0.8-0.8,0.8-2,0-2.8L10.8,12l3.6-3.6 C15.2,7.6,15.2,6.4,14.4,5.6z"/></svg></span>
+				<span class="header__prev_text">prev</span>
+			</div>
 			<h1 class="header__title"><span id="js_year"></span><i class="header__slash">/</i><span id="js_month"></span></h1>
-			<span id="js_next" class="header__next">next&#x25B6;</span>
+			<div id="js_next" class="header__next">
+				<span class="header__next_text">next</span>
+				<span class="header__next_svg"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve"><path class="path" d="M8.6,5.6c-0.8,0.8-0.8,2,0,2.8l3.6,3.6l-3.6,3.6c-0.8,0.8-0.8,2,0,2.8C9,18.8,9.5,19,10,19s1-0.2,1.4-0.6l6.4-6.4l-6.4-6.4 C10.6,4.8,9.4,4.8,8.6,5.6z"/></svg></span>
+			</div>
 		</header>
 		<div class="calender">
 			<div class="calender__inner">				
@@ -63,9 +69,9 @@
 			</div>
 		</div>
 		<!-- /.camera -->
-		<small class="copyright">copyright &copy; CoComina&amp;Okayu</small>
 	</div>
 	<!-- /.wrapper -->
+	<div id="js_modal" class="modal"></div>
 <script src="./jquery-2.1.4.min.js"></script>
 <script src="./jquery.mobile.custom.min.js"></script>
 <script src="./calender.js"></script>

@@ -64,6 +64,7 @@ function calendarBody(year, month) {
 		tableBody += tr;
 	}
 	$tbody.html(tableBody);
+	
 }
 
 function calendarHeading(year, month) {
@@ -79,8 +80,7 @@ $(document).on('tap', '#js_next', function() {
 		$displayMonth = 1;
 	}
 	calendarHeading($displayYear, $displayMonth);
-	calendarBody($displayYear, $displayMonth);
-    return false;
+	calendarBody($displayYear, $displayMonth);	
 });
 
 /* Prev */
@@ -92,28 +92,24 @@ $(document).on('tap', '#js_prev', function() {
 	}
 	calendarHeading($displayYear, $displayMonth);
 	calendarBody($displayYear, $displayMonth);
-    return false;
 });
 
 
 /* Selected */
 $(document).on('tap', '.js_cell', function() {
-	if(!$(this).hasClass('active')){
-		if($(this).html() != '&nbsp;'){
-			$(this).addClass('active');		
-		}
+	if(!$(this).hasClass('active') && $(this).html() != '&nbsp;'){
+		$(this).addClass('active');		
 	}else{
 		$(this).removeClass('active');		
 	}
-    return false;
 });
 
 /* Camera */
 $(document).on('tap', '#js_camera_button', function() {
-	$('#js_prev, #js_next').toggleClass('active');
-    console.log('camera=on');
+	$('#js_modal').fadeIn(50);
+	$('#js_prev, #js_next').addClass('active');
 	setTimeout(function(){
 	    window.location = 'scheme://saveFunc?camera=on';
-	}, 500);
-    return false;
+		$('#js_modal').fadeOut(500);
+	}, 100);
 });
