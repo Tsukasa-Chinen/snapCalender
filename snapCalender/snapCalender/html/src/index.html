@@ -7,36 +7,40 @@
 </head>
 <body>
 	<div id="js_wrapper" class="wrapper">
-		<header class="header">
-			<div id="js_prev" class="header__prev">
-				<i class="header__prev_icon icon-chevron-left"></i>
-				<span class="header__prev_text">prev</span>
+		<div class="contents">			
+			<header class="header">
+				<div id="js_prev" class="header__prev">
+					<i class="header__prev_icon icon-chevron-left"></i>
+					<span class="header__prev_text">prev</span>
+				</div>
+				<h1 class="header__title"><span id="js_year"></span><i class="header__slash">/</i><span id="js_month"></span></h1>
+				<div id="js_next" class="header__next">
+					<span class="header__next_text">next</span>
+					<i class="header__next_icon icon-chevron-right"></i>
+				</div>
+			</header>
+			<div class="calender">
+				<div class="calender__inner">
+					<table class="calender__table">
+						<thead>
+							<tr>
+								<th class="sunday">日</th>
+								<th>月</th>
+								<th>火</th>
+								<th>水</th>
+								<th>木</th>
+								<th>金</th>
+								<th class="saturday">土</th>
+							</tr>
+						</thead>
+						<tbody id="js_calendar_body">
+						</tbody>
+					</table>
+				</div>
 			</div>
-			<h1 class="header__title"><span id="js_year"></span><i class="header__slash">/</i><span id="js_month"></span></h1>
-			<div id="js_next" class="header__next">
-				<span class="header__next_text">next</span>
-				<i class="header__next_icon icon-chevron-right"></i>
-			</div>
-		</header>
-		<div class="calender">
-			<div class="calender__inner">
-				<table class="calender__table">
-					<thead>
-						<tr>
-							<th class="sunday">日</th>
-							<th>月</th>
-							<th>火</th>
-							<th>水</th>
-							<th>木</th>
-							<th>金</th>
-							<th class="saturday">土</th>
-						</tr>
-					</thead>
-					<tbody id="js_calendar_body">
-					</tbody>
-				</table>
-			</div>
+			<!-- /.calender -->
 		</div>
+		<!-- /.contents -->
 		<div id="js_camera_button" class="camera">
 			<div class="camera__inner">
 				<div class="camera__contents">
