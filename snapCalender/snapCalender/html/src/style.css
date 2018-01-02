@@ -183,7 +183,7 @@ a {
 	background: rgba(229, 62, 62, .9);
 	border-radius: .3rem;
 	padding: 2%;
-	box-shadow: 0 .1rem .1rem rgba(179, 162, 0, 0.6);
+	box-shadow: 0 0.1rem 0.1rem rgba(156, 18, 16, .8);
 }
 .camera__contents {
 	display: flex;
